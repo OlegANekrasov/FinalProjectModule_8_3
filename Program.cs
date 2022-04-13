@@ -41,9 +41,6 @@ namespace FinalProjectModule_8_3
                 {
                     Console.WriteLine("Ошибка чистки папки: " + ex); // логирует исключение в консоль
                 }
-
-                //Console.WriteLine($"Папка очистилась от файлов ({delFile}) и папок ({delDir})," +
-                //                            "\nкоторые не использовались более 30 минут");
             }
             else
             {
